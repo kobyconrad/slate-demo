@@ -1,22 +1,14 @@
 import { useSharedState, RoomServiceProvider } from "@roomservice/react";
 import React from "react";
+import SlateApp from "../slateComponent";
+// Import the Slate components and React plugin.
+import { Slate, Editable, withReact } from "slate-react";
 
 const App = () => {
-  const [sharedState, setSharedState] = useSharedState("my-room");
-
-  function onClick() {
-    setSharedState(prevDoc => {
-      prevDoc.number = Math.floor(Math.random() * 100);
-    });
-  }
-
   return (
     <div>
-      <h1>Open multiple browser windows!</h1>
-
-      <p>{sharedState.number || 0}</p>
-
-      <button onClick={onClick}>Pick Random Number</button>
+      <h1>This is my Slate demo!</h1>
+      <SlateApp />
     </div>
   );
 };
