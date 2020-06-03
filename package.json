@@ -10,7 +10,7 @@
   "dependencies": {
     "@roomservice/node": "latest",
     "@roomservice/react": "latest",
-    "next": "9.2.0",
+    "next": "9.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "slate": "^0.58.1",
