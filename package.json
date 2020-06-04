@@ -10,10 +10,12 @@
   "dependencies": {
     "@roomservice/node": "latest",
     "@roomservice/react": "latest",
+    "emotion": "^10.0.27",
     "next": "9.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "slate": "^0.58.1",
+    "slate-history": "^0.58.1",
     "slate-react": "^0.58.2"
   }
 }
